@@ -3,7 +3,7 @@ layout: workshop
 root: .
 venue: University of New Hampshire              # brief name of host site
 address: |                                      # street address of home location
-    UNH Chase Ocean Engineering Lab
+    UNH Chase Ocean Engineering Lab,
     24 Colovos Rd.
     Durham, NH 03824
 country: United-States                          # country (hyphenated if need be, like 'United-Kingdom')
@@ -15,10 +15,11 @@ startdate: 2015-08-27                           # use YYYY-MM-DD format like 201
 enddate: 2015-08-28                             # use YYYY-MM-DD format like 2015-01-02
 instructor: ["Ivan Gonzalez", "Byron J. Smith"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]                               # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: # contact email address for workshop organizer
+contact_name: Pete Bachant                      #
+contact_email: # contact email address for workshop organizer
 etherpad: |                                     # optional (insert the URL for your Etherpad if you're using one)
     https://swcarpentry.etherpad.mozilla.org/2015-08-27-unh
-eventbrite:                                     # optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
+eventbrite:                                     # TODO: optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
 
 <!--
@@ -31,7 +32,7 @@ eventbrite:                                     # optional (delete this if not u
 
 <!--
   EVENTBRITE
-
+  TODO:
   This block includes the Eventbrite registration widget if
   'eventbrite' has been set in the header.  You can delete it if you
   are not using Eventbrite, or leave it in, since it will not be
@@ -125,9 +126,9 @@ eventbrite:                                     # optional (delete this if not u
 -->
 <p>
   <strong>Contact</strong>:
-  Please mail
+  Please email
   {% if page.contact %}
-    <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
+    <a href='mailto:{{page.contact_email}}'>{{page.contact_name}}</a>
   {% else %}
     <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
   {% endif %}
@@ -260,6 +261,7 @@ eventbrite:                                     # optional (delete this if not u
       <li>Defensive programming</li>
       <li>Testing</li>
       <li>Using Python from the command line</li>
+      <li>Solving problems with Python (Capstone)</li>
       <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
     </ul>
   </div>
