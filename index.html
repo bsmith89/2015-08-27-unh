@@ -17,6 +17,7 @@ instructor: ["Ivan Gonzalez", "Byron J. Smith"] # list of names like ["Kay McNul
 helper: ["FIXME"]                               # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact_name: Pete Bachant                      #
 contact_email: # contact email address for workshop organizer
+contact_subject: 2015-08-27 UNH Software Carpentry Workshop
 etherpad: |                                     # optional (insert the URL for your Etherpad if you're using one)
     https://swcarpentry.etherpad.mozilla.org/2015-08-27-unh
 eventbrite:                                     # TODO: optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
@@ -127,8 +128,10 @@ eventbrite:                                     # TODO: optional (delete this if
 <p>
   <strong>Contact</strong>:
   Please email
-  {% if page.contact %}
-    <a href='mailto:{{page.contact_email}}'>{{page.contact_name}}</a>
+  {% if page.contact_email %}
+  <a href='mailto:{{page.contact_email}}?subject={{page.contact_subject}}'>
+    {{page.contact_name}} &lt;{{page.contact_email}}&gt;
+  </a>
   {% else %}
     <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
   {% endif %}
