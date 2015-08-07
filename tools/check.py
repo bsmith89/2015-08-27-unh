@@ -331,7 +331,13 @@ HANDLERS = {
                    'helper list isn\'t a valid list of format ' +
                    '["First helper", "Second helper",..].'),
 
-    'contact':    (True, check_email,
+    'contact_name': (True, check_pass,
+                     'contact name is weird.'),
+
+    'contact_subject': (False, check_pass,
+                        'contact subject is weird.'),
+
+    'contact_email':    (True, check_email,
                    'contact email invalid or still set to ' +
                    '"{0}".'.format(DEFAULT_CONTACT_EMAIL)),
 
