@@ -1,22 +1,31 @@
 ---
 layout: workshop
 root: .
-venue: University of New Hampshire              # brief name of host site
-address: |                                      # street address of home location
-    UNH Chase Ocean Engineering Lab,
-    24 Colovos Rd.
-    Durham, NH 03824
+# brief name of host site
+venue: University of New Hampshire School of Marine Science and Ocean Engineering
+# street address of home location:
+address: |
+  <p>
+  OE Classroom<br>
+  UNH Chase Ocean Engineering Lab<br>
+  24 Colovos Rd.<br>
+  Durham, NH 03824
+  </p>
 country: United-States                          # country (hyphenated if need be, like 'United-Kingdom')
 language: en                                    # language code like 'en' or 'fr'
 latlng: 43.1356673,-70.9393302                  # fractional latitude and longitude like 41.7901128,-87.6007318
 humandate: Aug 27-28, 2015                      # use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: 9:00 am - 5:00 pm                    # use the format '9:00 am - 4:30 pm' (without the quotes)
+humantime: 8:00 am - 4:00 pm                    # use the format '9:00 am - 4:30 pm' (without the quotes)
 startdate: 2015-08-27                           # use YYYY-MM-DD format like 2015-01-01
 enddate: 2015-08-28                             # use YYYY-MM-DD format like 2015-01-02
-instructor: ["Ivan Gonzalez", "Byron J. Smith"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]                               # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor:
+  - Ivan Gonzalez
+  - Byron J. Smith
+helper:
+  - Daniel Hocking
+  - Pete Bachant
 contact_name: Pete Bachant                      #
-contact_email: FIXME                            # contact email address for workshop organizer
+contact_email: pxl3@unh.edu                     # contact email address for workshop organizer
 contact_subject: 2015-08-27 UNH Software Carpentry Workshop
 etherpad: |                                     # optional (insert the URL for your Etherpad if you're using one)
     https://swcarpentry.etherpad.mozilla.org/2015-08-27-unh
@@ -97,7 +106,7 @@ eventbrite:                                     # TODO: optional (delete this if
 {% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{page.address}}.
+  {{page.address}}
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
