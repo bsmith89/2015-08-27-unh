@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<title>/4299$2015-08-27-unh</title>
+</head>
+<body><b>Workshop Site: </b><a href="http://bsmith89.github.io/2015-08-27-unh"><b>http://bsmith89.github.io/2015-08-27-unh</b></a><br
+/><br
+/>Welcome to Software Carpentry<br
+/><br
+/>We will use this Etherpad to share links and snippets of code, take notes, ask and answer questions, and whatever else comes to mind.<br
+/>The page displays a screen with three major parts:<br
+/><br
+/><ul><li>The left side holds today's notes: please edit these as we go along.</li
+><li>The top right side shows the names of users who are logged in: please add your name and pick the color that best reflects your mood and personality.</li
+><li>The bottom right is a real time chat window for asking questions of the instructor and your fellow learners.<br/><br
+/><br/><br
+/></li></ul
+><b><u>## WRAP UP ##</u></b><br
+/><br
+/>As we finish for the day, please:<br
+/><ul><li>fill out the post assessment survey: <a href="http://goo.gl/forms/UmDvn36Lh1">http://goo.gl/forms/UmDvn36Lh1</a></li
+><li>give us positive/negative feedback on your blue/red post-its</li
+><li>Check out the lessons on <a href="http://software-carpentry.org/lessons.html">http://software-carpentry.org/lessons.html</a><br/><br
+/></li
+><li>If you're a matlab user, you might like: <a href="http://wiki.scipy.org/NumPy_for_Matlab_Users">http://wiki.scipy.org/NumPy_for_Matlab_Users</a></li
+><li>If you'd like to see the code in my IPython Notebook, check out:<ul><li><a href="http://bsmith89.github.io/2015-08-27-unh/first.ipynb">http://bsmith89.github.io/2015-08-27-unh/first.ipynb</a></li
+><li><a href="http://bsmith89.github.io/2015-08-27-unh/second.ipynb">http://bsmith89.github.io/2015-08-27-unh/second.ipynb</a></li
+><li><a href="http://bsmith89.github.io/2015-08-27-unh/third.ipynb">http://bsmith89.github.io/2015-08-27-unh/third.ipynb</a><br/><br
+/><br/><br
+/><br/><br
+/></li></ul
+></li></ul
+>To start, please add yourself to the attendee list below:<br
+/>lcd Melissa Meléndez [aka M&amp;M](Oceanography, PhD, UNH)<br
+/>Michael Allard (ME, PhD, UNH)<br
+/>Byron J. Smith* (Microbial Ecology, University of Michigan) &lt;bsmith89@gmail.com&gt;<br
+/>Ivan Gonzalez* (Martinos Center, MGH, Boston)<br
+/>Juan Cuevas (PhD student, ME, University of New Hampshire)<br
+/>Ian Gagnon (Mech Eng. MS Student, University of New Hampshire)<br
+/>Dr. Evil (Rapmaster) (ME, UNH)<br
+/>Ashley Norton (CCOM/NRESS PhD Student)<br
+/>Salme [ms. awesome] Cook (PhD student, Oceanography, UNH)<br
+/>Sarah Widlansky (Earth Sciences, UNH)<br
+/>Grace Delgado (Earth Sciences, Geology, UNH)<br
+/>Maria Marin (ESCI-Oceanography, UNH)<br
+/>Reza Ebadi (ME-undergrad(Freshman))<br
+/>John James Turner LXC (ME, UNH)<br
+/>Drummond Biles (ME, UNH)<br
+/>Meg Hartwick (PhD student MESB)<br
+/>Ryan Chase (Earth Sciences, UNH)<br
+/>Kara Koetje (Ocean Engineering, UNH)<br
+/>Toby Dewhurst (ME, UNH)<br
+/>Pete Bachant (ME, UNH)<br
+/>Erin Nagel (CCOM, UNH)<br
+/>Martin Wosnik (ME, UNH)<br
+/>Chris Hunt (OPAL, NRESS, UNH)<br
+/>Jill Getchell (Earth Science Hydrology, UNH)<br
+/>Shawn Shellito<br
+/>Devon O'rourke (Ph.D. student MESB)<br
+/>John Kidd (CCOM, UNH)<br
+/>Steve Frolking (EOS)<br
+/>Dan Hocking (Ecology, US Geological Survey)* helper &lt;djhocking@gmail.com&gt;<br
+/>* Instructor (discipline, institution)<br
+/><br
+/><br
+/><br
+/><b>### Thursday ###</b><br
+/><br
+/>Setup and Installation<br
+/><ul><li>Go to <a href="http://bsmith89.github.io/2015-08-27-unh/setup/index.html">http://bsmith89.github.io/2015-08-27-unh/setup/index.html</a> . Download and run the test scripts.</li
+><li>Go to <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a>, scroll down to get ready and download the files follow the instructions.</li
+><li>Make a directory on your desktop named: `python-novice-inflammation`</li
+><li>Download <a href="http://swcarpentry.github.io/python-novice-inflammation/python-novice-inflammation-data.zip">http://swcarpentry.github.io/python-novice-inflammation/python-novice-inflammation-data.zip</a><ul><li>Unzip it and move the contents into the `python-novice-inflammation` directory you made on your desktop<br/><br
+/><br/><br
+/><br/><br
+/></li></ul
+></li></ul
+><b>#### Commands we've seen ####</b><br
+/><br
+/><ul><li>whoami&nbsp;&nbsp; - print username</li
+><li>echo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - print all of the 'arguments' (words that come after the command)</li
+><li>cd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - change to the given directory (without arguments, changes to the "home" directory)</li
+><li>pwd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Print working directory, print the directory that you are currently "in" (last changed to)</li
+><li>ls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (lowercase L, lowercase S) list the files in the working directory</li
+><li>clear&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - remove text from the terminal screen (doesn't change anything else)</li
+><li>mkdir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - make a new directory</li
+><li>touch [file]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - If file doesn't exist, make the file (empty)</li
+><li>cat [file]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - print the contents of a file to the screen</li
+><li>rm [file]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - remove the file (<b>***THIS CAN BE VERY DANGEROUS. IT IS COMPLETELY GONE, NOT JUST IN YOUR TRASH CAN***</b>)</li
+><li>cp [path1] [path2]&nbsp; - Copy path1 to path2. Use -r to copy directories recursively.</li
+><li>wc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - word count</li
+><li>sort&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Print sorted content of file(s)&nbsp;<ul><li>-n sorts numerically</li
+><li>-r reverses order</li></ul
+></li
+><li>head&nbsp;&nbsp;&nbsp;&nbsp; - Print the first 10 lines of a file<ul><li>`head -1` prints the first line, `head -5` prints the first 5 lines, etc.</li></ul
+></li
+><li>uniq&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Print contents; filter duplicate lines from the input<ul><li>Possible to redirect results into a file of the same name?<br/><br
+/></li></ul
+></li></ul
+><b>#### Getting Help for Commands ####</b><br
+/><br
+/><ul><li>On Windows/Mac/Linux:<ul><li>Google '[command] manual'</li
+><li>Type `[command] --help` or `[command] -h` (`ls` is an example of a command where this doesn't work)</li></ul
+></li
+><li>On UNIX systems (Mac and Linux)<ul><li>Type `man [command]` in the terminal<br/><br
+/></li></ul
+></li></ul
+><b>#### Paths ####</b><br
+/><br
+/><ul><li>The "location" of a file</li
+><li>Forward slash `/` at the beginning of the path (or as the entire path) means "root"</li
+><li>A <b>complete path </b>is a path that starts at the root</li
+><li>A <b>relative path</b> is relative to the current working directory; does not start with a slash</li
+><li>`..` stands for the <b>parent directory</b>.&nbsp; `cd ..` will move you one directory "up"</li
+><li>`.` means the <b>current working directory</b> `cd .` will not move you anywhere</li
+><li>`*` (astrisk) means '<b>wildcard</b>'...or rather, anything in a file name that exists<ul><li>e.g. `*.pdb` as an argument really means, "all of the files that end with `.pdb`"<br/><br
+/></li></ul
+></li></ul
+><b>#### Working with Output ####</b><br
+/><br
+/><ul><li>`&gt;` <b>redirect</b>s the output of a command to a file (<b>WRITES OVER WHATEVER IS THERE</b>)<ul><li>e.g. `wc -l *.pdb &gt; len.txt` sends the line count of each file that ends with `.pdb` to the file lens.txt</li
+><li>`cat len.txt` will then print that file's contents to the screen</li></ul
+></li
+><li>`&gt;&gt;` <b>append</b>s the output to the file (rather than overwriting)</li
+><li>`|` "<b>pipes</b>" the output of one command into the next command<br/><br
+/></li></ul
+><b>#### Tips and Tricks #1 ####</b><br
+/><br
+/>Add the current working directory to your prompt (so it looks like '/some/path/ $')&nbsp; by executing the following:<br
+/><b>export $PS1='${pwd}$ '</b><br
+/>Go back with<br
+/><b>export $PS1='$ '</b><br
+/>Alternatively, see Devon O's suggestion in chat.<br
+/><br
+/><b>#### Editing text files on Windows ####</b><br
+/><ul><li>nano is broken with Git Bash</li
+><li>Use `notepad [FILENAME]`</li
+><li>Usually helpful to leave a blank line at the end of the file (equivalent to `\r` at the end of the last line)</li
+><li>If you're having file ending issues on Windows, try the command `dos2unix` like so:<ul><li>dos2unix [filename] | sort | uniq</li></ul
+></li
+><li>Let me know in the chat if that works or doesn't work (I can't test it on my mac)<br/><br
+/></li></ul
+><b>#### Bash scripts ####</b><br
+/><ul><li>Text files that usually end in `*.sh`</li
+><li>Run with `bash [scriptname]`, e.g. `bash backup.sh`</li
+><li>Comment lines start with `#`<br/><br
+/><br/><br
+/></li></ul
+><b>#### Challenge Question #1 ####</b><br
+/>Why does uniq only remove adjacent duplicates?<br
+/>The command uniq removes adjacent duplicated lines from its input. For example, if a file salmon.txt contains:<br
+/><br
+/><b>coho</b><br
+/><b>coho</b><br
+/><b>steelhead</b><br
+/><b>coho</b><br
+/><b>steelhead</b><br
+/><b>steelhead</b><br
+/><br
+/>then uniq salmon.txt produces:<br
+/><br
+/><b>coho</b><br
+/><b>steelhead</b><br
+/><b>coho</b><br
+/><b>steelhead</b><br
+/><br
+/>1.&nbsp; Why do you think uniq only removes <i>adjacent</i> duplicated lines? (Hint: think about very large data sets.)<br
+/>2.&nbsp; What other command could you combine with it in a pipe to remove all duplicated lines?<br
+/><br
+/><br
+/>1.&nbsp; Why do you think uniq only removes <i>adjacent</i> duplicated lines? (Hint: think about very large data sets.)<br
+/>2.&nbsp; What other command could you combine with it in a pipe to remove all duplicated lines?<br
+/><br
+/>(If you're having file ending issues on Windows, try the command `dos2unix`<br
+/><br
+/><b>#### IPython Notebook tips ####</b><br
+/><ul><li>Pressing shift+enter executes a cell and moves to next</li
+><li>ctrl+enter executes a cell and stays there<br/><br
+/></li></ul
+><b>#### Slicing ####</b><br
+/><ul><li>Last index is not included when slicing, e.g. `some_list[:-1]` contains all items of `some_list` except the last</li
+><li>iterate backwards across entire list by 1:&nbsp;&nbsp;&nbsp; `some_list[::-1]`<br/><br
+/></li></ul
+><b>#### Using the Conda package manager ####</b><br
+/><ul><li>`conda search [packagename]`, e.g. `conda search seaborn`&nbsp;&nbsp;&nbsp;&nbsp; - search for a package to install</li
+><li>`conda install [packagename]`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - install a package with conda</li
+><li>`conda update [packagename]`&nbsp;&nbsp;&nbsp;&nbsp; - update a package<br/><br
+/></li></ul
+>Find packages that do useful things using Google, GitHub, etc. If they can't be installed with conda, you can usually use `pip install [packagename]`.<br
+/><br
+/><br
+/><br
+/><b>### Friday ###</b><br
+/><br
+/><b>#### Git for Version Control ####</b><br
+/><br
+/><b>##### First Challenge #####</b><br
+/><br
+/>Using the command line (and notepad if necessary) make two files: "methods.txt" and "ingredients.txt" inside a folder on your desktop named "guacamole".<br
+/><br
+/><br
+/><br
+/>##### Configuring Git #####<br
+/><br
+/>`git config --global user.name "&lt;your name here&gt;"`<br
+/>`git config --global user.email "&lt;your email here&gt;"`ls<br
+/><br
+/>`git config --global color.ui "auto"`<br
+/>`git config --global core.editor "nano -w"<br
+/>`git config --list`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Print configured settings<br
+/>`git config --list --global`&nbsp;&nbsp;&nbsp;&nbsp; # Print global settings<br
+/>`git config --list --global | grep user`&nbsp;&nbsp;&nbsp;&nbsp; # see only the global git settings with "user" in them<br
+/><br
+/>git config --global alias.l 'log --pretty=oneline -n 20 --graph --abbrev-commit'<br
+/>^^ dot lower case L (not one(1))<br
+/><br
+/><br
+/><b>##### Using Git #####</b><br
+/><br
+/>`git init`&nbsp;&nbsp;&nbsp; # when inside a directory, tell git that you want to consider that directory a repository<br
+/>`git status`&nbsp;&nbsp;&nbsp; # tell me what's up<br
+/>`git add`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # with file name arguments, adds those files to the index (ready to be saved)<br
+/>&nbsp;&nbsp;&nbsp; `git add -A`&nbsp;&nbsp;&nbsp; # Add all changed and/or untracked files in the current directory or below<br
+/>`git commit -m "&lt;commit message&gt;"`&nbsp;&nbsp;&nbsp; # Save the current state of the index (also known as the staging area) as a version.&nbsp; Use the `-m` flag followed by a double-quote surrounded sentence saying what you've changed and the purpose of the change.<br
+/>`git log`<br
+/>* to print a git log that is easier to read and has abbreviated commit IDs you can use:<br
+/>`git log --pretty=oneline --abbrev-commit`<br
+/>'git remote set-url origin <i><u>linkFromGithub</u></i>'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - reset the URL for the local repository pointing to the GitHub remote repo named "origin"<br
+/><br
+/><br
+/><b>##### Git tips on Windows #####</b><br
+/><br
+/>You may get a message like:<br
+/>"warning: LF will be replaced by CRLF in ingredients.txt.<br
+/>The file will have its original line endings in your working directory."<br
+/><br
+/>This is perfectly normal, and will be beneficial if collaborating with others using Mac or Linux&nbsp; (systems that use different line ending characters). It is recommended you run<br
+/><br
+/>&nbsp;&nbsp;&nbsp; `git config --global core.autocrlf true`<br
+/><br
+/>See <a href="https://help.github.com/articles/dealing-with-line-endings/">https://help.github.com/articles/dealing-with-line-endings/</a> for more details.<br
+/><br
+/><br
+/><br
+/><br
+/><b>### Python Day 2 ###</b><br
+/><br
+/>The notebook from yesterday:<br
+/><a href="http://bsmith89.github.io/2015-08-27-unh/first.ipynb">http://bsmith89.github.io/2015-08-27-unh/first.ipynb</a><br
+/><br
+/>To open: Put the file somewhere and run `ipython notebook first.ipynb` from that directory<br
+/><br
+/><br
+/><br
+/><b>#### More IPython Notebook tips ####</b><br
+/><ul><li>`{function_name}?` brings up help for the function, e.g. `len?`&nbsp;&nbsp;&nbsp; - Note: Only works in IPython</li
+><li>Commenting a block of code: Highlight and press ctrl+/<br/><br
+/><br/><br
+/></li></ul
+>### Capstone ###<br
+/><br
+/>Fork (from Ivan's repo to your github account):<br
+/><a href="https://github.com/iglpdc/capstone-buoys">https://github.com/iglpdc/capstone-buoys</a><br
+/><br
+/><br
+/><br
+/></body>
+</html>
