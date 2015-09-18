@@ -3,3 +3,6 @@
 .DS_Store
 _site
 .venv/
+images/*
+!images/logos.png
+figures
