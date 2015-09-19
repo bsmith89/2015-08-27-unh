@@ -1,0 +1,55 @@
+# Session 1 -- Shell
+
+Beginning was very slow
+Just the visualizing of the current directory on the big screen [referring to not knowing what dir the instructor was in at all times]
+Maybe a handout with unix terms: rm, cp ...
+Frustrating that some things don't work on windows
+have us give you nods if we are following
+Maybe just check in if people are following
+It may (or may not) be useful to have larger scripts that we just look at and/or modify
+Very slow progression
+Diversity in knowledge forces the workshop to go slower but it's necessary
+Wish we could go over bash profile issues
+maybe another exercise or two on our own or with neighbors
+started a bit slow, and really looking forward to python
+started a bit slow
+[just a dash]
+It may be helpful to leave the script up while we're looking at the website on the screen
+could go a little faster
+
+
+# Session 2 -- Python I
+
+It would be nice to go over a pre-written, more complicated code to discuss and/or modify it
+Just so much to learn (nothing bad!)
+Send out a copy of your notebook, pls.
+The python portion went a little too fast and the screen usually wasn't showing the step I was on
+Maybe send out a copy of the notebook
+More explanation of actual files/folders/path associated with python
+it would be nice mix some bash and python script. very useful workshop! thanks
+tell group little command you use without noticing e.g. ^m-b (time permitting)
+a bigger screen would be helpful to see more commands on the screen at once
+too fast paced for me - a newbie!
+
+
+# Session 3 -- Git
+
+I work with proprietary data format: so I can't use open Github :(
+didn't use git reset
+difficult to follow, I think because git is not as intuitive as python
+It would have been nice to see ways that Git relates to real projects. I had trouble seeing how it would be useful.
+Very useful to share and edit documents. - Would be good to know how to do it with .m files
+Just need more time and try more problems
+Try not to use "alias" [referring to some git aliases Ivan had set up]
+Now I want margaritas in the afternoon [referring to Ivan's guacamole recipe example]
+It would be nice to: - Ask us to download only files that we need - if possible have the command prompt on one half of the screen or a separate screen at all times
+It would be nice to get nano or something similar working on PCs
+
+
+# Session 4 -- Python II
+
+--
+Just a lot of information
+extend both days by 30 min to get more time for last session
+Consider doing the project differently. Maybe you can have a pre-written code in Spyder? Too many commands presented without explanation of what exactly they do. I wish there was more on making "pretty" plots with axes, legends, error bars, etc.
+The ultimate goal of the challenge questions could be explained better so know what we're trying to do

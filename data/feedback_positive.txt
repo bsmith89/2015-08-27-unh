@@ -1,0 +1,60 @@
+# Session 1 -- Shell
+
+I like the examples which show functionality e.g. making a backup script
+like the interaction between teacher & students
+practical exercises
+good pace - good examples
+clear explanation of pipeline scripting
+Thought the pace you kept was excellent and your descriptions were very clear -Thanks
+This was a good level for beginners
+Very good for people that don't know anything of programming & coding
+Good pace, thanks for taking questions on the fly
+helpful side comments
+Some good UNIX basics presented
+Great simple explanations!
+Useful tips
+good pace
+reminded of basics I need to know & learned a lot of new commands have the basics to [unclear]
+great to see how to build scripts from the beginning, very easy to follow
+I like learning the bash command
+
+
+# Session 2 -- Python I
+
+good work!
+I like the class (approach & structure) overall
+good lesson - predict answer before running
+Great explanations
+awesome, just want more time with it
+really cool stuff!
+never used python so I learned a lot of new info
+Loved using IPython
+The questions were answered quickly
+great speed
+
+
+# Session 3 -- Git
+
+Chalk board work helped! Nice progression through material.
+The lesson went at a good speed.
+Looking forward to using git+Github
+Great into to Git. Good to have problems to do in class.
+Pace was great.
+Very nice!
+Having the Etherpad support + notes is really helpful!
+Such a powerful program and very good intro
+Very informative and could follow for the most part never having worked with Git before.
+really useful stuff
+I like the independent small challenges
+Keep the workshop as is (more or less). Good [stuff?] overall.
+
+
+# Session 4 -- Python II
+
+The workshop covered a good range of useful things
+Thanks! I learned a ton.
+nice workshop
+good job! Thank you.
+Excellent, applicable examples!
+Great way to put it together
+awesome exposure to useful programs

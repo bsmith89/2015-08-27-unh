@@ -3,3 +3,7 @@
 .DS_Store
 _site
 .venv/
+images/*
+!images/logos.png
+figures
+.ipynb_checkpoints/
