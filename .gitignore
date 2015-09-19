@@ -6,3 +6,4 @@ _site
 images/*
 !images/logos.png
 figures
+.ipynb_checkpoints/
